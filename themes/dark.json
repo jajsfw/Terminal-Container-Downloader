@@ -1,0 +1,14 @@
+{
+    "name": "dark",
+    "window_background": "#121212",
+    "text_color": "#FFFFFF",
+    "accent_color": "#BB86FC",
+    "success_color": "#00C853",
+    "error_color": "#CF6679",
+    "warning_color": "#FFD600",
+    "progress_bar_background": "#1F1F1F",
+    "progress_bar_chunk": "#BB86FC",
+    "table_alternate_background": "#1F1F1F",
+    "table_gridline": "#2D2D2D",
+    "toolbar_background": "#1F1F1F"
+}

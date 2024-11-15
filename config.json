@@ -1,0 +1,14 @@
+{
+    "max_concurrent": 3,
+    "default_save_path": "C:\\Users\\Administrator/Downloads",
+    "max_upload_speed": 0,
+    "max_download_speed": 0,
+    "history_file": "download_history.json",
+    "proxy_enabled": false,
+    "proxy_type": "HTTP",
+    "proxy_host": "",
+    "proxy_port": "",
+    "proxy_auth": false,
+    "proxy_user": "",
+    "proxy_pass": ""
+}

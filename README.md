@@ -1,29 +1,83 @@
-# VueJS-with-Vite
+# 多线程下载器
 
-This template should help get you started developing with Vue 3 in Vite.
+一个基于PyQt6的多线程下载器，支持HTTP、BT下载，具有丰富的功能和插件系统。
 
-## Recommended IDE Setup
+## 功能特点
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 多线程下载支持
+- BT种子下载
+- 断点续传
+- 下载队列管理
+- 实时速度显示
+- 主题切换
+- 插件系统
+- 下载历史记录
+- 代理支持
+- 自动分类文件
+- 下载完成提示音
 
-## Customize configuration
+## 系统要求
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Python 3.7 或更高版本
+- Windows/Linux/MacOS
 
-## Project Setup
+## 快速开始
 
-```sh
-npm install
-```
+1. 克隆或下载本项目
+2. 运行安装脚本：
+   ```bash
+   python install.py
+   ```
+3. 启动程序：
+   ```bash
+   python run.py
+   ```
 
-### Compile and Hot-Reload for Development
+## 使用说明
 
-```sh
-npm run dev
-```
+1. 新建下载：
+   - 点击"新建下载"按钮
+   - 输入下载地址和保存位置
+   - 点击确定开始下载
 
-### Compile and Minify for Production
+2. BT下载：
+   - 点击"导入种子"按钮
+   - 选择种子文件和保存位置
+   - 点击确定开始下载
 
-```sh
-npm run build
-```
+3. 下载管理：
+   - 暂停/继续下载
+   - 取消下载
+   - 查看下载进度和速度
+
+4. 其他功能：
+   - 设置代理
+   - 切换主题
+   - 查看历史记录
+   - 查看下载统计
+
+## 插件系统
+
+本程序支持插件扩展，已包含的插件：
+
+- 自动解压插件
+- 自动重命名插件
+- 自动分类插件
+
+## 配置说明
+
+所有配置文件存储在程序目录下：
+
+- config.json: 程序设置
+- download_history.json: 下载历史
+- download_stats.json: 下载统计
+- themes/: 主题文件
+- plugins/: 插件目录
+
+## 问题反馈
+
+如果遇到问题或有建议，请提交 Issue。
+
+## 许可证
+
+MIT License 

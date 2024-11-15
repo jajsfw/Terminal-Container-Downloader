@@ -1,0 +1,18 @@
+{
+    "total_downloads": 0,
+    "completed_downloads": 13,
+    "failed_downloads": 15,
+    "total_bytes": 194179752,
+    "daily_stats": {
+        "2024-11-15": {
+            "started": 0,
+            "completed": 13,
+            "failed": 15,
+            "bytes": 0
+        }
+    },
+    "current_speed": 0,
+    "max_speed": 6318400.24804958,
+    "average_speed": 1085177.8065683008,
+    "active_time": 178.93818950653076
+}
